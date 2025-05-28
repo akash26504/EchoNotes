@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Blue Colors -->
+    <color name="blue_50">#FFE3F2FD</color>
+    <color name="blue_100">#FFBBDEFB</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_300">#FF64B5F6</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_600">#FF1E88E5</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="blue_800">#FF1565C0</color>
+    <color name="blue_900">#FF0D47A1</color>
+
+    <!-- Accent Colors -->
+    <color name="cyan_400">#FF26C6DA</color>
+    <color name="cyan_500">#FF00BCD4</color>
+    <color name="cyan_600">#FF00ACC1</color>
+
+    <!-- Neutral Colors -->
+    <color name="gray_50">#FFFAFAFA</color>
+    <color name="gray_100">#FFF5F5F5</color>
+    <color name="gray_200">#FFEEEEEE</color>
+    <color name="gray_300">#FFE0E0E0</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_900">#FF212121</color>
+
+    <!-- System Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Status Colors -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+
+    <!-- Legacy Colors (replaced with blue equivalents) -->
+    <color name="purple_100">#FFE3F2FD</color> <!-- Now blue_50 -->
+    <color name="purple_200">#FF90CAF9</color> <!-- Now blue_200 -->
+    <color name="purple_500">#FF2196F3</color> <!-- Now blue_500 -->
+    <color name="purple_700">#FF1976D2</color> <!-- Now blue_700 -->
+    <color name="teal_200">#FF26C6DA</color> <!-- Now cyan_400 -->
+    <color name="teal_700">#FF00ACC1</color> <!-- Now cyan_600 -->
+</resources>

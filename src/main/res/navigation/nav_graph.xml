@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.videosummarise.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_videoSelectionFragment"
+            app:destination="@id/videoSelectionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedSummariesFragment"
+            app:destination="@id/savedSummariesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoSelectionFragment"
+        android:name="com.example.videosummarise.ui.selection.VideoSelectionFragment"
+        android:label="@string/select_video"
+        tools:layout="@layout/fragment_video_selection">
+        <action
+            android:id="@+id/action_videoSelectionFragment_to_processingFragment"
+            app:destination="@id/processingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/processingFragment"
+        android:name="com.example.videosummarise.ui.processing.ProcessingFragment"
+        android:label="@string/processing"
+        tools:layout="@layout/fragment_processing">
+        <action
+            android:id="@+id/action_processingFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:popUpTo="@id/videoSelectionFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="videoUri"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.videosummarise.ui.result.ResultFragment"
+        android:label="@string/summary_ready"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="summaryId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/savedSummariesFragment"
+        android:name="com.example.videosummarise.ui.saved.SavedSummariesFragment"
+        android:label="@string/my_summaries"
+        tools:layout="@layout/fragment_saved_summaries">
+        <action
+            android:id="@+id/action_savedSummariesFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+</navigation>

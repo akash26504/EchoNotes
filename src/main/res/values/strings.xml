@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Summarise</string>
+    <string name="app_description">Transform your videos into concise summaries</string>
+    <string name="app_tagline">Smart Video Summaries</string>
+    <string name="select_video">Select Video</string>
+    <string name="my_summaries">My Summaries</string>
+    <string name="processing">Processing Video</string>
+    <string name="analyzing_video">Analyzing video content and generating summary...</string>
+    <string name="summary_ready">Summary Ready!</string>
+    <string name="save_summary">Save Summary</string>
+    <string name="share_summary">Share Summary</string>
+    <string name="browse_videos">Browse Videos</string>
+    <string name="process_video">Process Video</string>
+    <string name="no_video_selected">No video selected</string>
+    <string name="summary">Summary</string>
+    <string name="key_points">Key Points</string>
+    <string name="captions">Captions</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="video_selected">Video Selected</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+</resources>

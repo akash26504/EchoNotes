@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme -->
+    <style name="Theme.VideoSummarise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/blue_400</item>
+        <item name="colorOnPrimary">@color/gray_900</item>
+        <item name="colorPrimaryContainer">@color/blue_800</item>
+        <item name="colorOnPrimaryContainer">@color/blue_100</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/cyan_400</item>
+        <item name="colorOnSecondary">@color/gray_900</item>
+        <item name="colorSecondaryContainer">@color/cyan_600</item>
+        <item name="colorOnSecondaryContainer">@color/cyan_400</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/gray_800</item>
+        <item name="colorOnSurface">@color/gray_100</item>
+        <item name="colorSurfaceVariant">@color/gray_700</item>
+        <item name="colorOnSurfaceVariant">@color/gray_300</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/gray_900</item>
+        <item name="colorOnBackground">@color/gray_100</item>
+
+        <!-- System UI -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/gray_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.VideoSummarise.Splash" parent="Theme.VideoSummarise">
+        <item name="android:windowBackground">@drawable/splash_background_dark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- No Action Bar Theme -->
+    <style name="Theme.VideoSummarise.NoActionBar" parent="Theme.VideoSummarise">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

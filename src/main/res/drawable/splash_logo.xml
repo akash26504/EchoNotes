@@ -1,0 +1,160 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer glow circle with blue gradient -->
+    <path
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="100"
+                android:gradientRadius="95"
+                android:type="radial">
+                <item android:offset="0.7" android:color="#002196F3"/>
+                <item android:offset="1.0" android:color="#4D2196F3"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main circular background with blue gradient -->
+    <path
+        android:pathData="M100,100m-85,0a85,85 0,1 1,170 0a85,85 0,1 1,-170 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="100"
+                android:gradientRadius="85"
+                android:type="radial">
+                <item android:offset="0" android:color="#FFFFFFFF"/>
+                <item android:offset="0.6" android:color="#FFF3F8FF"/>
+                <item android:offset="0.9" android:color="#FFE3F2FD"/>
+                <item android:offset="1" android:color="#FFBBDEFB"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Video camera body with enhanced blue gradient -->
+    <path
+        android:pathData="M65,75L65,125L125,125L125,75L65,75Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="65"
+                android:startY="75"
+                android:endX="125"
+                android:endY="125"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="0.5" android:color="#FF1976D2"/>
+                <item android:offset="1" android:color="#FF1565C0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Camera lens -->
+    <path
+        android:pathData="M75,85L75,115L105,115L105,85L75,85Z"
+        android:fillColor="#FF0D47A1"/>
+
+    <!-- Lens reflection -->
+    <path
+        android:pathData="M78,88L78,95L95,95L95,88L78,88Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="78"
+                android:startY="88"
+                android:endX="95"
+                android:endY="95"
+                android:type="linear">
+                <item android:offset="0" android:color="#4D2196F3"/>
+                <item android:offset="1" android:color="#1A2196F3"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play button background with enhanced gradient -->
+    <path
+        android:pathData="M130,85L130,115L155,115L155,85L130,85Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="130"
+                android:startY="85"
+                android:endX="155"
+                android:endY="115"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF42A5F5"/>
+                <item android:offset="0.5" android:color="#FF26C6DA"/>
+                <item android:offset="1" android:color="#FF00BCD4"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play triangle -->
+    <path
+        android:pathData="M138,92L138,108L148,100Z"
+        android:fillColor="#FFFFFFFF"/>
+
+    <!-- Decorative elements -->
+    <path
+        android:pathData="M40,40L50,40L50,50L40,50Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="50"
+                android:endY="50"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="1" android:color="#FF26C6DA"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M150,40L160,40L160,50L150,50Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="150"
+                android:startY="40"
+                android:endX="160"
+                android:endY="50"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="1" android:color="#FF26C6DA"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M40,150L50,150L50,160L40,160Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="150"
+                android:endX="50"
+                android:endY="160"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="1" android:color="#FF26C6DA"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M150,150L160,150L160,160L150,160Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="150"
+                android:startY="150"
+                android:endX="160"
+                android:endY="160"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2196F3"/>
+                <item android:offset="1" android:color="#FF26C6DA"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
